@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Outfit:wght@100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Outfit", sans-serif;
+}
+
+#content_txt{
+  letter-spacing: 60px;
+}
+
+
+@media (max-width: 768px) {
+  #content_txt{
+    letter-spacing: 30px;
+  }
+  
+}
+
+
+@media (max-width: 378px) {
+  #content_txt{
+    letter-spacing: 10px;
+  }
+  
+}
+
+@media (max-width: 321px) {
+  #content_txt{
+    letter-spacing: 5px;
+  }
+  
+}
