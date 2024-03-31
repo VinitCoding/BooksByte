@@ -56,7 +56,7 @@ VITE_STRIPE_KEY =your_stripe_api_key
 **4. Start the development server:**
 npm start
 
-**5. Open your browser and visit http://localhost:3000 to view the application.**
+**5. Open your browser and visit http://localhost:5173 to view the application.**
 
 **Usage**
 1. Search for books using the search bar at the top of the page.
