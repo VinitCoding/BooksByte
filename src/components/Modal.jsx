@@ -22,7 +22,7 @@ const Modal = ({ show, item, onClose }) => {
                             publishedDate}</span></h4><br />
                         <div className='flex gap-10'>
                         <a href={item.volumeInfo.previewLink} target='_blank' title='Click to see more '><button className='px-4 py-1 text-white border-none rounded-md outline-none bg-light-blue-600 text-[18px]'>More</button></a>
-                        <Stripe bookAmount={amount} />
+                        <Stripe bookAmount={amount} title={item.volumeInfo.title}/>
                         </div>
                     </div>
                 </div>

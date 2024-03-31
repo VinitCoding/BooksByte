@@ -2,7 +2,7 @@ import React from 'react'
 import { useNavigate } from 'react-router-dom';
 import StripeCheckout from 'react-stripe-checkout';
 
-const Stripe = ({bookAmount}) => {
+const Stripe = ({bookAmount, title}) => {
   const stripe_key = import.meta.env.VITE_STRIPE_KEY
     const navigate = useNavigate()
     const onToken = (token) => {
@@ -19,7 +19,8 @@ const Stripe = ({bookAmount}) => {
         <StripeCheckout
     token={onToken}
     alipay={true}
-    name=''
+    name={`${title} and 
+    amount is ${bookAmount * 100}`}
     currency='INR'
     amount={bookAmount *100}
     stripeKey={stripe_key}
