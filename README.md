@@ -10,7 +10,7 @@ Welcome to the BooksByte which is an online book store project! This is a web ap
 
 ## Demo
 
-[Link to live demo](#) *(https://books-byte.vercel.app/)*
+Link to live demo:- *(https://books-byte.vercel.app/)*
 
 ## Screenshots
 
