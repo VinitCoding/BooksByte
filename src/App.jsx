@@ -10,13 +10,11 @@ import SuccessPage from './components/SuccessPage'
 
 const App = () => {
   return (
-    <div>
-      <header className='bg-gray-100 scroll-smooth'>
+    <div className='overflow-x-hidden'>
         <Header />
-      </header>
       <Routes>
         <Route path='/' element= {
-        <div className="mt-1 bg-center bg-no-repeat bg-cover h-fit" style={{ backgroundImage: `url(${bg_img})` }}>
+        <div className='flex flex-col'>
           <Home />
           <About />
         </div>
