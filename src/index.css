@@ -1,3 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@theme {
+    --color-primary-bg-: #E5E2DC;
+    --color-secondary-bg: #F4EFE6;
+    --color-nav-primary-bg: #FCF9F3;
+    --color-tertiary-bg: #483028;
+    --color-primary-text: #426182;
+    --color-secondary-text: #FEF3C7;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Newsreader", serif;
+}
+
+body {
+    font-family: "Plus Jakarta Sans", sans-serif;
+}

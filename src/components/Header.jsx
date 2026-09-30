@@ -8,8 +8,9 @@ const Header = () => {
     navigate('/')
   }
   return (
-    <nav className='flex justify-between mx-[50px]'>
-        <img src={logo} alt="logo" className='w-[150px] hover:cursor-pointer' onClick={handleHome} />
+    <nav className='flex justify-start items-center gap-3 p-3 bg-[#FCF9F3] border-b-[1px] border-gray-300'>
+        <img src={logo} alt="logo" className='w-15 hover:cursor-pointer' onClick={handleHome} />
+        <p className='text-lg font-bold'>Books<span className='text-[#426182]'>Byte</span></p>
     </nav>
   )
 }
