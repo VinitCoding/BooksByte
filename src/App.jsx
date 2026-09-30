@@ -7,6 +7,7 @@ import About from './components/About'
 import { Route, Routes } from 'react-router-dom'
 import Search from './components/Search'
 import SuccessPage from './components/SuccessPage'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
         <Route path='/search' element ={<Search />}/>
         <Route path='/success' element={<SuccessPage />} />
       </Routes>
+      <Footer />
 
     </div>
 

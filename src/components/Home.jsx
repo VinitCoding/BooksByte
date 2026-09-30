@@ -9,7 +9,7 @@ const Home = () => {
     navigate('/search')
   }
   return (
-    <div className='flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-16 xl:gap-24 px-5 sm:px-8 lg:px-12 py-8 lg:py-10 bg-[#FBF8F2] w-full relative overflow-hidden'>
+    <div className='flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-20 xl:gap-24 px-5 sm:px-8 lg:px-12 py-8 lg:py-10 bg-[#FBF8F2] w-full relative overflow-hidden'>
       {/* Title */}
       <div className='flex flex-col justify-center items-center lg:items-start gap-5 lg:gap-6 w-full lg:w-1/2 xl:max-w-xl z-10'>
         <h2 className='text-4xl sm:text-5xl lg:text-6xl text-center lg:text-start leading-tight'>Discover books at BooksByte</h2>
