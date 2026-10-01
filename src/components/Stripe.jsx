@@ -14,7 +14,7 @@ const Stripe = ({bookAmount, title}) => {
   return (
     <div title="NOTE :- This is the test mode payment so don't make the actual payment here..
     Dummy Card :- 4242 4242 4242 4242
-    MM/YY - (Put any expiry) CVC:- (Put any three no.s)" className='text-red-500 text-[15px] flex-col'>
+    MM/YY - (Put any expiry) CVC:- (Put any three no.s)" className='text-red-500 text-[15px] flex-col mt-7'>
         
         <StripeCheckout
     token={onToken}

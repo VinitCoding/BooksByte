@@ -8,6 +8,7 @@ import { Route, Routes } from 'react-router-dom'
 import Search from './components/Search'
 import SuccessPage from './components/SuccessPage'
 import Footer from './components/Footer'
+import { ToastBar } from 'react-hot-toast'
 
 const App = () => {
   return (
@@ -25,7 +26,7 @@ const App = () => {
         <Route path='/success' element={<SuccessPage />} />
       </Routes>
       <Footer />
-
+      {/* <ToastBar toast={{ duration: 1500 }} className='none'/> */}
     </div>
 
   )
