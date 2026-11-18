@@ -12,10 +12,6 @@ Welcome to the BooksByte which is an online book store project! This is a web ap
 
 Link to live demo:- *(https://books-byte.vercel.app/)*
 
-## Screenshots
-
-![image](https://github.com/VinitCoding/BooksByte/assets/161184800/ef11e6ea-524d-4b14-b1b3-eb0dafba0535)
-
 
 ## Technologies Used
 
